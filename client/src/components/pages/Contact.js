@@ -7,7 +7,7 @@ import Notification from "../Notification"
 function Contact(){
 
     const [formObject, setFormObject] = useState({})
-    const [alertState, setAlertState] = useState(null)
+    const [notificationState, setNotificationState] = useState(null)
 
     function handleInputChange(event) {
         const name = event.target.name
@@ -18,9 +18,9 @@ function Contact(){
     function handleFormSubmit(event){
         event.preventDefault();
 
-        setAlertState(true)
+        setNotificationState(true)
         setTimeout(() => {
-            setAlertState(null);
+            setNotificationState(null);
         }, 3000);
 
         API.saveMessage({
@@ -45,12 +45,12 @@ function Contact(){
                                         <div className="col-lg-12">
                                             <form id="form">
                                                 <div className="form-group">
-                                                    <label for="exampleFormControlInput1">Name</label>
+                                                    <label htmlFor="exampleFormControlInput1">Name</label>
                                                     <input name="name" type="name" className="form-control" id="exampleFormControlInput1" placeholder="Name" onChange={handleInputChange}/>
-                                                    <label for="exampleFormControlInput1">Email Address</label>
+                                                    <label htmlFor="exampleFormControlInput1">Email Address</label>
                                                     <textarea name="message" className="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Message here" onChange={handleInputChange}></textarea>
                                                     <button type="button" className="btn btn-info" onClick={handleFormSubmit}>Submit</button>
-                                                    {alertState ? <Notification />: null}
+                                                    {notificationState ? <Notification />: null}
                                                 </div>
                                             </form>
                                         </div>
@@ -58,7 +58,7 @@ function Contact(){
                                 </div>
                             </div>
                         </div>
-                        <Connect />
+                    
                     </div>
                 </div>
             </section>

@@ -1,5 +1,6 @@
 import React from "react"
 import "./Nav.css"
+import Connect from "./Connect"
 import { Link, useLocation } from "react-router-dom";
 
 function Nav(){
@@ -16,6 +17,7 @@ function Nav(){
             <span className="navbar-toggler-icon"></span>
           </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <Connect />
           <ul className="navbar-nav ml-auto flex-row ml-md-auto d-md-flex">
             <li className="nav-item">
               <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>

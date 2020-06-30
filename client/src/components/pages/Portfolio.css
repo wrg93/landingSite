@@ -1,7 +1,52 @@
+  
 .portfolio-container{
-    border: 1px outset #f7f7f7;
+    border: 1px outset black;
     width: 80%;
     padding: 3%;
-    background-color: #FFFFFF;
+    background-color: #4cbbb9;
+    ;
     margin-bottom: 35px;
+}
+
+.portfolio-image {
+    width: 490px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    width: 93.5%;
+    text-align: center;
+}
+
+h6{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    width: 93.5%;
+    text-align: center;
+}
+
+h2:hover {
+    color:#4cbbb9;
+    
+}
+
+h6:hover {
+    color: #4cbbb9;
+    
+}
+
+.portfolio-text-image {
+    position: relative;
+}
+
+h5 {
+    color: #4cbbb9;
+    font-size: 24px;
 }

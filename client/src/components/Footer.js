@@ -4,9 +4,9 @@ import './Footer.css';
 function Footer() {
     return (
         <footer className="footer">
-            <span className="span-name">William Grundler</span>
-            <span className="span-email">805-746-9371</span>
-            <span className="span-phone">wrgrundler@gmail.com</span>
+            <p className="span-name">William Grundler</p>
+            <p className="span-email">805-746-9371</p>
+            <p className="span-phone">wrgrundler@gmail.com</p>
         </footer>
     )
 }
