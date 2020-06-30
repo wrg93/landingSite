@@ -26,7 +26,7 @@ npm install
     
 ## Usage
     
-![](deployedEmployeeDirectory.png)
+![](landingSiteDeployedApp.png)
     
 ## License
     
