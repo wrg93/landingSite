@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import "./Contact.css"
-import API from "../../utils/API"
-import Notification from "../Notification"
+import API from "../../../utils/API"
+import Notification from "../../Notification/Notification"
 
 function Contact(){
 

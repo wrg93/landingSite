@@ -1,6 +1,6 @@
 import React from "react"
 import "./Nav.css"
-import Connect from "./Connect"
+import Connect from "./../Connect/Connect"
 import { Link, useLocation } from "react-router-dom";
 
 function Nav(){

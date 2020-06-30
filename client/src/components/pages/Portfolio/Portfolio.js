@@ -1,6 +1,6 @@
 import React from "react"
 import "./Portfolio.css"
-import Project from "../Project"
+import Project from "../../Project"
 
 function Portfolio(props){
 

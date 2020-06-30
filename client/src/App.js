@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import About from './components/pages/About';
-import Portfolio from './components/pages/Portfolio';
-import Contact from './components/pages/Contact';
-import Footer from './components/Footer';
-import Nav from './components/Nav';
+import About from './components/pages/About/About';
+import Portfolio from './components/pages/Portfolio/Portfolio';
+import Contact from './components/pages/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Nav from './components/Nav/Nav';
 import portfolio from "./portfolio.json"
 import './App.css';
 
