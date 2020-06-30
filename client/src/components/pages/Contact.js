@@ -1,7 +1,6 @@
 import React, {useState} from "react"
 import "./Contact.css"
 import API from "../../utils/API"
-import Connect from "../Connect"
 import Notification from "../Notification"
 
 function Contact(){
@@ -48,6 +47,8 @@ function Contact(){
                                                     <label htmlFor="exampleFormControlInput1">Name</label>
                                                     <input name="name" type="name" className="form-control" id="exampleFormControlInput1" placeholder="Name" onChange={handleInputChange}/>
                                                     <label htmlFor="exampleFormControlInput1">Email Address</label>
+                                                    <input name="email" type="email" className="form-control" id="exampleFormControlInput1" placeholder="Email Address" onChange={handleInputChange}/>
+                                                    <label for="exampleFormControlTextarea1">Message</label>
                                                     <textarea name="message" className="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Message here" onChange={handleInputChange}></textarea>
                                                     <button type="button" className="btn btn-info" onClick={handleFormSubmit}>Submit</button>
                                                     {notificationState ? <Notification />: null}
