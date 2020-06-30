@@ -5,7 +5,7 @@ function Notification (){
 
     return (
         <div className="alert alert-success" role="alert">
-            Submitted! I will contact you shortly. Thank You!
+            Success!
         </div>
     )
 }

@@ -32,7 +32,7 @@
     {
         "img":"../../images/workDayScheduler.png",
         "appLink":"https://wrg93.github.io/Scheduler/",
-        "appTitle":"Day Planner App",
+        "appTitle":"workDayScheduler",
         "appRepo":"https://github.com/wrg93/Scheduler"
     }
 ]

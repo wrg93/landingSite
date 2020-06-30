@@ -1,5 +1,8 @@
 import React from "react"
 import "./About.css"
+import Pdf from "../../resume/WilliamGrundlerResume2020.pdf"
+
+
 
 function About(){
 
@@ -36,9 +39,9 @@ function About(){
                                         <p>
                                         With an extensive background in creativity and professional experience in technology, William is preparing to enter the thrilling field of web development.
                                         </p>  
-                                        <p>
-                                          <a href="../../resume/WilliamGrundlerResume2020.pdf">Resume</a>
-                                        </p>
+                                        {/* <p>
+                                          <a href={Pdf} target ="_blank" rel="noopener noreferrer">Resume</a>
+                                        </p> */}
                             </div>
                         </div>
                     </div>    
