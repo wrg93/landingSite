@@ -1,0 +1,16 @@
+  
+label {
+    margin-top: 2%;
+}
+
+button {
+    margin-top: 2%;  
+}
+
+.btn-info{
+    background-color: #4cbbb9;
+}
+
+.form-group{
+    width: 80%;
+}

@@ -1,0 +1,38 @@
+.navbar-custom {
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid darkgrey;
+}
+
+.navbar-brand{
+    background-color: #4cbbb9;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.nav-item {
+    padding: 10px 10px;
+    border-left: 1px solid #D3D3D3;
+    line-height: 0.1;
+}
+
+.nav-item:first-child{
+    border-left: none;
+}
+
+.navbar-light .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.nav-bar-container{
+    padding-left: 0px;
+    padding-right: 0Px
+}

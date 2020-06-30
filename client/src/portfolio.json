@@ -1,0 +1,38 @@
+[   
+    {
+        "img":"./../images/getPreparedApp.png",
+        "appLink":"https://croatia99.github.io/project1/",
+        "appTitle":"Get Prepared App",
+        "appRepo":"https://github.com/wrg93/project1"
+    },
+    {
+        "img":"../../images/burgerLogger.png",
+        "appLink":"https://obscure-bayou-91943.herokuapp.com/",
+        "appTitle":"Burger Logger",
+        "appRepo":"https://github.com/wrg93/burger"
+    },
+    {
+        "img":"../../images/deployedEmployeeDirectory.png",
+        "appLink":"https://wrg93.github.io/reactEmployeeDirectory/",
+        "appTitle":"Employee Directory",
+        "appRepo":"https://github.com/wrg93/reactEmployeeDirectory"
+    },
+    {
+        "img":"./../images/noteTaker.png",
+        "appLink":"https://stark-temple-17082.herokuapp.com/notes",
+        "appTitle":"noteTaker",
+        "appRepo":"https://github.com/wrg93/noteTaker"
+    },
+    {
+        "img":"../../images/storyTime.png",
+        "appLink":"https://fathomless-waters-70908.herokuapp.com/",
+        "appTitle":"storyTime",
+        "appRepo":"https://github.com/wrg93/StoryTime"
+    },
+    {
+        "img":"../../images/workDayScheduler.png",
+        "appLink":"https://wrg93.github.io/Scheduler/",
+        "appTitle":"Day Planner App",
+        "appRepo":"https://github.com/wrg93/Scheduler"
+    }
+]
