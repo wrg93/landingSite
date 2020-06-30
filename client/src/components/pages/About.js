@@ -6,19 +6,19 @@ function About(){
     return(
       <div>
       <section className="main-body">
-      <div class="container">
-        <div class="row">
-            <div class="card border-dark mb-3">
+      <div className="container">
+        <div className="row">
+            <div className="card border-dark mb-3">
                 
-                    <div class="card-header">About Me
+                    <div className="card-header">About Me
                     </div>
-                    <div class="card-body text-dark">
-                        <div class="row">
-                            <div class="col-lg-4 col-xs-12">
-                                <img class="img-fluid"   alt="Responsive image" src="WRGheadshot.jpg"></img>
+                    <div className="card-body text-dark">
+                        <div className="row">
+                            <div className="col-lg-4 col-xs-12">
+                                <img className="img-fluid"   alt="William Grundler headshot" src="../../images/WRGheadshot.jpg"></img>
                             </div>
-                            <div class="col-lg-8">
-                                <p class="card-text">
+                            <div className="col-lg-8">
+                                <p className="card-text">
                                     William Grundler is a student in UCLA’s full-time full-stack bootcamp. For the last two years William has been a research analyst at public adjusting firm, The Greenspan Company, and is excited to dive further into the field of technology.
                                     </p>
                                     <p>
@@ -37,7 +37,7 @@ function About(){
                                         With an extensive background in creativity and professional experience in technology, William is preparing to enter the thrilling field of web development.
                                         </p>  
                                         <p>
-                                          <a href="wrgresume.pdf">Resume</a>
+                                          <a href="../../resume/WilliamGrundlerResume2020.pdf">Resume</a>
                                         </p>
                             </div>
                         </div>
