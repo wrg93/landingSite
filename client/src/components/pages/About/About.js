@@ -22,7 +22,7 @@ function About(){
                             </div>
                             <div className="col-lg-8">
                                 <p className="card-text">
-                                I am a full stack web developer utilizing my background in opera and research analysis to creatively develop and integrate back-end programming
+                                I am a full stack web developer utilizing my background in opera and research analysis to creatively develop and integrate back-end programming.
                                     </p>
                                     <p>
                                     Recently I earned a certificate in full stack development from the University of California, Los Angeles, with newly developed skills in JavaScript, MongoDB, MySQL, Node.js, and React. 
