@@ -11,7 +11,7 @@
     "appRepo":"https://github.com/wrg93/StoryTime"
     },
     {
-        "img":"./../images/getrepared_app.png",
+        "img":"../../images/getPreparedApp.png",
         "appLink":"https://croatia99.github.io/project1/",
         "appTitle":"Get Prepared App",
         "appRepo":"https://github.com/wrg93/project1"

@@ -1,6 +1,6 @@
 import React from "react"
 import "./About.css"
-import Pdf from "../../resume/WilliamGrundlerResume2020.pdf"
+
 
 
 
@@ -22,26 +22,26 @@ function About(){
                             </div>
                             <div className="col-lg-8">
                                 <p className="card-text">
-                                    William Grundler is a student in UCLA’s full-time full-stack bootcamp. For the last two years William has been a research analyst at public adjusting firm, The Greenspan Company, and is excited to dive further into the field of technology.
+                                I am a full stack web developer utilizing my background in opera and research analysis to creatively develop and integrate back-end programming
                                     </p>
                                     <p>
-                                    Having received his Bachelor of Music from Cal State Northridge in 2015, William is a Los Angeles-based tenor, composer, and conductor who serves as Choir Director of Canoga Park Lutheran Church and a chanter at St. Michael Orthodox Church.
+                                    Recently I earned a certificate in full stack development from the University of California, Los Angeles, with newly developed skills in JavaScript, MongoDB, MySQL, Node.js, and React. 
                                     </p>
                                     <p>
-                                    His compositions, which have been performed in various churches across Southern California, including his a cappella Requiem. His Ignis Overture premiered at a concert featuring film composer Christopher Young. Two of William’s orchestral works have been performed at the recurring “Sounds of Silents” concert.
+                                    Through my work I have demonstrated an ability to create and integrate databases in various libraries.
                                     </p>
                                     <p>
-                                    Opera roles performed by William include Arturo in Pacific Opera Project’s Lucia di Lammermoor and Dr. S in Pasadena Opera's The Man Who Mistook His Wife for a Hat. In Autumn 2019 William made his Carnegie Hall debut performing as Il Duca and Nemorino in scenes from Rigoletto and L’elisir d’amore, respectively.
+                                    I worked on a team of four to develop a MERN social networking application for dog owners wherein I developed and integrated the back-end and implemented Redux to handle state throughout the app.
                                     </p>
+                                    <p>I also worked on a team of three developers using Sequelize in an app which helps parents create personalized stories to read to their children.</p>
                                     <p>
-                                          William has performed as a soloist with the LA Jewish Symphony and Santa Clarita Master Chorale and has sung choral works with the LA Phil, the LA Master Chorale, and Long Beach Opera.
+                                          As a musician I have performed as a soloist with the LA Jewish Symphony and Santa Clarita Master Chorale and has sung choral works with the LA Phil, the LA Master Chorale, and Long Beach Opera.
                                         </p>
+                                      <p>In the acquisition of my musical achievements I have learned to sing in Italian, French, German, Russian, Spanish, Korean, Hebrew, Greek, and Arabic. </p>
                                         <p>
-                                        With an extensive background in creativity and professional experience in technology, William is preparing to enter the thrilling field of web development.
+                                        With a proven aptitude for learning languages and data analysis, I am excited to work with a creative and driven team. 
                                         </p>  
-                                        {/* <p>
-                                          <a href={Pdf} target ="_blank" rel="noopener noreferrer">Resume</a>
-                                        </p> */}
+                                  
                             </div>
                         </div>
                     </div>    
