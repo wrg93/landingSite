@@ -1,46 +1,69 @@
   
 .portfolio-container{
-    border: 1px outset black;
+    border: 8px outset coral;
     width: 80%;
     padding: 3%;
-    background-color: #4cbbb9;
-    ;
+    background-color: white;
     margin-bottom: 35px;
 }
 
 .portfolio-image {
     width: 490px;
     height: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    visibility: visible;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
+.portfolio-sample p {
+    position: absolute;
+    top: 60px;
+    width: 93.5%;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+
 h2 {
-    background-color: black;
+    background-color: #1b3461;
+    border-bottom: 1px solid white;
     color: white;
     position: absolute;
-    bottom: 50px;
+    bottom: 27px;
     width: 93.5%;
     text-align: center;
 }
 
+h4 {
+    color:#1b3461;
+}
+
 h6{
-    background-color: black;
+    background-color: #1b3461;
+    /* border: solid white; */
     color: white;
     position: absolute;
-    bottom: 20px;
+    bottom: 16px;
     width: 93.5%;
     text-align: center;
 }
 
 h2:hover {
-    color:#4cbbb9;
+    color:coral;
     
 }
 
 h6:hover {
-    color: #4cbbb9;
+    color: coral;
     
 }
+
 
 .portfolio-text-image {
     position: relative;
@@ -49,4 +72,22 @@ h6:hover {
 h5 {
     color: #4cbbb9;
     font-size: 24px;
+}
+
+/* .portfolio-sample:hover {
+    opacity: 0.2
+    
+} */
+
+.portfolio-sample{
+    background-color: #1b3461;
+}
+
+.portfolio-sample:hover p {
+    visibility: visible;
+    opacity: 1
+}
+
+.portfolio-sample:hover .portfolio-image {
+    opacity:0.15
 }

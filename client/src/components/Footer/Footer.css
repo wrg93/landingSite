@@ -1,6 +1,24 @@
 .footer {
-    min-height: 100px;
-    background: #4cbbb9;;
-    position: relative;
+    max-height: 10%;
+    background: coral;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: solid darkgray;
+  
   }
   
+  .span-email{
+    color: white;
+    margin-bottom: 0px;
+  }
+
+  .span-name{
+    color: white;
+    margin-bottom: 0px;
+  }
+
+.span-phone{
+  color: white;
+  margin-bottom: 0px;
+}

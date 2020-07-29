@@ -9,7 +9,7 @@
 }
 
 .navbar-brand{
-    background-color: #4cbbb9;
+    background: coral;
     padding: 20px;
     font-size: 25px;
 }
@@ -36,3 +36,12 @@
     padding-left: 0px;
     padding-right: 0Px
 }
+
+
+.treble {
+    content: "\1D11E";
+    height: 30px;
+    color: white;
+    }
+
+

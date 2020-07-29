@@ -11,7 +11,7 @@ function About(){
       <section className="main-body">
       <div className="container">
         <div className="row">
-            <div className="card border-dark mb-3">
+            <div className="card border-coral mb-3">
                 
                     <div className="card-header">About Me
                     </div>

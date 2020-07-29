@@ -2,36 +2,30 @@
     "img":"../../images/FidoFriend.png",
     "appLink":"https://young-refuge-69490.herokuapp.com",
     "appTitle":"FidoFriend",
-    "appRepo":"https://github.com/seongwoj/project-3"
+    "appRepo":"https://github.com/seongwoj/project-3",
+    "description": "Responsive social media web application for dog owners built with the MERN stack (mongoDB, Express, React, Node.js). Responsible for creating the database and implementing Redux for state management. Also created sign in and log in using Passport and JSON Web Token."
     },
     {
     "img":"../../images/StoryTime.png",
     "appLink":"https://fathomless-waters-70908.herokuapp.com/",
     "appTitle":"storyTime",
-    "appRepo":"https://github.com/wrg93/StoryTime"
+    "appRepo":"https://github.com/wrg93/StoryTime",
+    "description": "Responsive web application which customizes children’s stories. Built with Sequel, Sequelize, Express, JavaScript, HTML, CSS, and Bootstrap. Responsible for creating API routes to the database. Responsible for implementing Nodemailer."
     },
     {
         "img":"../../images/getPreparedApp.png",
         "appLink":"https://croatia99.github.io/project1/",
         "appTitle":"Get Prepared App",
-        "appRepo":"https://github.com/wrg93/project1"
+        "appRepo":"https://github.com/wrg93/project1",
+        "description": "Responsive web application which helps the user prepare for natural disasters in their area. Responsible for generating lists based on user input and for using local storage to add hyperlinked items to the basket. Created using JavaScript, jQuery, HTML and CSS."
     },
     {
         "img":"../../images/deployedEmployeeDirectory.png",
         "appLink":"https://wrg93.github.io/reactEmployeeDirectory/",
         "appTitle":"Employee Directory",
-        "appRepo":"https://github.com/wrg93/reactEmployeeDirectory"
-    },
-    {
-        "img":"../../images/burgerLogger.png",
-        "appLink":"https://obscure-bayou-91943.herokuapp.com/",
-        "appTitle":"Burger Logger",
-        "appRepo":"https://github.com/wrg93/burger"
-    },
-    {
-        "img":"./../images/NoteTaker.png",
-        "appLink":"https://stark-temple-17082.herokuapp.com/notes",
-        "appTitle":"noteTaker",
-        "appRepo":"https://github.com/wrg93/noteTaker"
+        "appRepo":"https://github.com/wrg93/reactEmployeeDirectory",
+        "description": "Web application which organizes employee information fetched from a 3rd-party API. The user has the ability to filter information based on various criteria. Created app using React and CSS."
     }
+   
 ]
+

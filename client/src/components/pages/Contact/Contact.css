@@ -8,9 +8,22 @@ button {
 }
 
 .btn-info{
-    background-color: #4cbbb9;
+  background-color: #1b3461;
+  
 }
 
 .form-group{
     width: 80%;
+}
+
+.card-title{
+  color: #1b3461;
+}
+
+.card{
+    border: 8px outset coral;
+    width: 100%;
+    padding: 3%;
+    background-color: white;
+    margin-bottom: 0px;
 }
