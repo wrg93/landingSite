@@ -2,3 +2,11 @@
     color: #1b3461;
     background-color: white;
 }
+
+.card{
+    border: 8px outset coral;
+    width: 80%;
+    padding: 3%;
+    background-color: white;
+    margin: auto;
+}

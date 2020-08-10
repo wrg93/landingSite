@@ -1,6 +1,10 @@
 #linkedin {
     padding-right: 5px;
+    margin-bottom: 0px;
 }
 #github {
     padding-right: 5px;
+}
+#resume{
+    padding-left: 5px;
 }
