@@ -12,12 +12,12 @@ function Nav(){
       <nav className="navbar navbar-expand-sm navbar-light navbar-custom">
         <div className="Name">
           <a className="navbar-brand" href="/">William Grundler</a>
+          <Connect />
         </div>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <Connect />
+        <div className="navbar-collapse collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto flex-row ml-md-auto d-md-flex">
             <li className="nav-item">
               <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>

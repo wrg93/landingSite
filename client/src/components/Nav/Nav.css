@@ -29,19 +29,13 @@
 }
 
 .navbar-light .navbar-brand:hover {
-    color: #FFFFFF;
+  color:
+    #1b3461;
 }
 
 .nav-bar-container{
     padding-left: 0px;
     padding-right: 0Px
 }
-
-
-.treble {
-    content: "\1D11E";
-    height: 30px;
-    color: white;
-    }
 
 
