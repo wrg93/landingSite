@@ -1,7 +1,7 @@
   
 import React from "react";
 import "./Connect.css"
-import PDF from "../resume/WRGResume2020.pdf"
+import PDF from "../resume/WRGrundlerResume2020.pdf"
 
 function Connect(){
 
